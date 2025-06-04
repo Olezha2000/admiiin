@@ -7,7 +7,11 @@
     width: 100%;
     height: 100%;
 
-    background-color: rgba(58, 60, 65, 0.25);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dialog.d-none {
+    display: none;
 }
 
 .popup {
@@ -15,24 +19,23 @@
     top: 50%;
     left: 50%;
 
-    max-width: 700px;
+    max-width: 500px;
     width: 100%;
-    padding: 60px;
+    padding: 30px;
 
     border-radius: 24px;
 
     transform: translate(-50%, -50%);
 
+    color: #000;
     background-color: #ffffff;
     box-shadow: 0 16px 72px 0 rgba(34, 39, 47, 0.05);
 }
 
 .popup__close {
     position: absolute;
-    top: 0;
-    right: 0;
-
-    padding: 22px 20px;
+    top: 14px;
+    right: 14px;
 
     background-color: initial;
     border: none;
@@ -41,11 +44,12 @@
 }
 
 .popup__title {
-    margin-bottom: 29px;
+    margin: 10px 0;
 
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 30px;
+    text-align: center;
 }
 
 .popup__title--registration {
@@ -57,11 +61,17 @@
 }
 
 .popup__desc {
-    margin-bottom: 40px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
 }
 
 .popup__buttons {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
+}
+
+.popup .feedback__form {
+    padding: 0;
 }

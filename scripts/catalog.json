@@ -1,0 +1,37 @@
+{
+  "tracktors": [
+    {
+      "title": "МТЗ <span class='text-green'>82.1</span> Беларус",
+      "image": "images/catalog/tracktor/1.jpg",
+      "specs": [
+        {"title": "Грузоподъемность", "value": "3200 кг"},
+        {"title": "Макс. скорость движения", "value": "34 км/час"},
+        {"title": "Двигатель", "value": "Д-243S2"},
+        {"title": "Мощность двигателя", "value": "81 л.с."},
+        {"title": "Габариты", "value": "3930 х 1970 х 2800 мм"}
+      ]
+    },
+    {
+      "title": "К-<span class='text-green'>704</span>Р-4Р Станислав",
+      "image": "images/catalog/tracktor/2.jpg",
+      "specs": [
+        {"title": "Грузоподъемность", "value": "6000 кг"},
+        {"title": "Макс. скорость движения", "value": "34 км/час"},
+        {"title": "Двигатель", "value": "ЯМЗ-238Д"},
+        {"title": "Мощность двигателя", "value": "330 л.с."},
+        {"title": "Габариты", "value": "7000 х 2950 х 3500 мм"}
+      ]
+    },
+    {
+      "title": "OPTITECH ALCOR TC<span class='text-green'>1304</span>",
+      "image": "images/catalog/tracktor/3.jpg",
+      "specs": [
+        {"title": "Грузоподъемность", "value": "3324 кг"},
+        {"title": "Макс. скорость движения", "value": "40 км/час"},
+        {"title": "Двигатель", "value": "Weichai"},
+        {"title": "Мощность двигателя", "value": "130 л.с."},
+        {"title": "Габариты", "value": "5000 х 2220 х 3150 мм"}
+      ]
+    }
+  ]
+}
